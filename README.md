@@ -36,7 +36,7 @@ Qt6 MQTT 모듈은 오픈소스 사용자에게 기본 제공되지 않으므로
 
 ```bash
 # 프로젝트 디렉토리로 이동
-cd QT_mqtt/tls
+cd tls_mqtt (클론한 레포 루트 폴더)
 
 # Qt6 MQTT 소스 다운로드
 git clone https://github.com/qt/qtmqtt.git
