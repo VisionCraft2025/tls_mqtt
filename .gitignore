@@ -1,8 +1,48 @@
+# 빌드 디렉토리
 build_cmake/
+mqtt_gui/build/
 CMakeFiles/
+
+# Qt 자동 생성 파일
+*_autogen/
 publisher_autogen/
 subscriber_autogen/
+moc_*.cpp
+moc_predefs.h
+
+# 빌드 결과물
+*.o
+*.so
+*.a
+mqtt_pub
+mqtt_sub
+mqtt_pub_gui
+mqtt_sub_gui
+
+# CMake 파일
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Qt 관련
+*.pro.user
+*.pro.user.*
+
+# 로컬 설치
 qt6_local/
 qtmqtt/
-*.o
+
+# 인증서 (보안상 제외)
 *.crt
+*.key
+*.pem
+
+# IDE 파일
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 로그 파일
+*.log
