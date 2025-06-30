@@ -35,8 +35,8 @@ sudo apt install -y qt6-base-dev qmake6 cmake build-essential git
 Qt6 MQTT 모듈은 오픈소스 사용자에게 기본 제공되지 않으므로 소스에서 빌드해야 합니다.
 
 ```bash
-# 프로젝트 디렉토리로 이동
-cd tls_mqtt (클론한 레포 루트 폴더)
+# 프로젝트 디렉토리로 이동 (클론한 레포 루트 폴더)
+cd tls_mqtt 
 
 # Qt6 MQTT 소스 다운로드
 git clone https://github.com/qt/qtmqtt.git
@@ -50,8 +50,8 @@ mkdir build && cd build
 cmake .. -DQT_NO_PACKAGE_VERSION_CHECK=TRUE -DQT_NO_PACKAGE_VERSION_INCOMPATIBLE_WARNING=TRUE
 make -j4
 
-# 로컬 설치
-make install DESTDIR=../../../qt6_local
+# 로컬 설치 (클론한 레포 폴더인 tls_mqtt/qt6_local 에 설치되어야 함)
+make install DESTDIR=../../../qt6_local 
 ```
 
 ### 3. 프로젝트 빌드
