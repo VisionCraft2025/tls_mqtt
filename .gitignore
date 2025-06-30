@@ -1,0 +1,8 @@
+build_cmake/
+CMakeFiles/
+publisher_autogen/
+subscriber_autogen/
+qt6_local/
+qtmqtt/
+*.o
+*.crt
