@@ -2,7 +2,7 @@
 build_cmake/
 mqtt_gui/build/
 CMakeFiles/
-
+qtmqtt/
 # Qt 자동 생성 파일
 *_autogen/
 publisher_autogen/
